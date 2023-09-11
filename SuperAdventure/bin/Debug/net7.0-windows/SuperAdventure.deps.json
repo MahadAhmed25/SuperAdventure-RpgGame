@@ -8,29 +8,15 @@
     ".NETCoreApp,Version=v7.0": {
       "SuperAdventure/1.0.0": {
         "dependencies": {
-          "Engine": "0.1.0-CI-20200106-003417"
+          "Engine": "1.0.0"
         },
         "runtime": {
           "SuperAdventure.dll": {}
         }
       },
-      "Engine/0.1.0-CI-20200106-003417": {
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.3"
-        },
+      "Engine/1.0.0": {
         "runtime": {
-          "lib/netcoreapp3.1/Engine.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Newtonsoft.Json/12.0.3": {
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "assemblyVersion": "12.0.0.0",
-            "fileVersion": "12.0.3.23909"
-          }
+          "Engine.dll": {}
         }
       }
     }
@@ -41,19 +27,10 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Engine/0.1.0-CI-20200106-003417": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-euzDBHLoFkv2e3mqNOkzL6inFj/CPJEdFOrWJN5Cfq32c6cWono1LmZhEJqkyXcj+BlFhuvVYZVAGRRf3AbAtg==",
-      "path": "engine/0.1.0-ci-20200106-003417",
-      "hashPath": "engine.0.1.0-ci-20200106-003417.nupkg.sha512"
-    },
-    "Newtonsoft.Json/12.0.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
-      "path": "newtonsoft.json/12.0.3",
-      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    "Engine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
