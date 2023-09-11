@@ -1,0 +1,100 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0-windows7.0": {
+      "Engine/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Engine.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Engine.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Engine/1.0.0": {
+      "type": "project",
+      "path": "../Engine/Engine.csproj",
+      "msbuildProject": "../Engine/Engine.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0-windows7.0": [
+      "Engine >= 0.1.0-ci-20200106-003417"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Mahad Ahmed\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Mahad Ahmed\\Documents\\personal projects\\Super Adventure (C# RPG Game)\\SuperAdventure\\SuperAdventure.csproj",
+      "projectName": "SuperAdventure",
+      "projectPath": "C:\\Users\\Mahad Ahmed\\Documents\\personal projects\\Super Adventure (C# RPG Game)\\SuperAdventure\\SuperAdventure.csproj",
+      "packagesPath": "C:\\Users\\Mahad Ahmed\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mahad Ahmed\\Documents\\personal projects\\Super Adventure (C# RPG Game)\\SuperAdventure\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Mahad Ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "projectReferences": {
+            "C:\\Users\\Mahad Ahmed\\Documents\\personal projects\\Super Adventure (C# RPG Game)\\Engine\\Engine.csproj": {
+              "projectPath": "C:\\Users\\Mahad Ahmed\\Documents\\personal projects\\Super Adventure (C# RPG Game)\\Engine\\Engine.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0-windows7.0": {
+        "targetAlias": "net7.0-windows",
+        "dependencies": {
+          "Engine": {
+            "target": "Package",
+            "version": "[0.1.0-ci-20200106-003417, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
